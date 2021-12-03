@@ -1,0 +1,25 @@
+.missCard_cont {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 20px 25px;
+  min-height: 300px;
+  margin-bottom: 50px;
+}
+
+.missCard_cont > h6 {
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.missCard_data {    
+  font-size: 21px;
+  line-height: 28px;
+  width: 50%;
+}
+
+.missCard_cont .readMore {
+    margin-left: 0;
+}

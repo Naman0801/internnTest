@@ -34,11 +34,15 @@
     margin: auto;
 }
 
-.homescreen_categories > h3 {
+.homescreen_categories > h3, 
+.homescreen_faq > h3, 
+.homescreen_read > h3,
+.homescreen_miss > h3 {
     letter-spacing: 0.09em;
     font-size: 26px;
     font-weight: 600;  
     margin-top: 70px;
+    text-transform: uppercase;
 }
 
 .catCard_cont {
@@ -55,3 +59,14 @@
     text-transform: uppercase;
     margin-top: 100px;
 }
+
+.homescreen_faq > h3, 
+.homescreen_read > h3, 
+.homescreen_miss > h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-size: 30px;
+}
+

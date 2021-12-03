@@ -1,0 +1,28 @@
+.Collapsible {
+  padding: 20px 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+.Collapsible__trigger > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.Collapsible__trigger > div > svg {
+  font-size: 50px;
+  color: #0e79bd;
+}
+
+.Collapsible__trigger > div > p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0;
+}
